@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Results</title>
+        <style>
+            td.passed {
+                color: green;
+            }
+            td.failed {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <td>Failed Tests</td>
+                <td>Passed Tests</td>
+                <td>Skipped Tests</td>
+                <td>Total</td>
+            </thead>
+            <tr>
+                <td><%= results.numFailedTests %></td>
+                <td><%= results.numPassedTests %></td>
+                <td><%= results.numPendingTests %></td>
+                <td><%= results.numTotalTests %></td>
+            </tr>
+        </table>
+        <table>
+            <thead>
+                <td>Status</td>
+                <td>Name</td>
+            </thead>
+            <% for (let test of results.testResults[0].assertionResults) {%>
+                <tr>
+                    <td class="<%= test.status %>"><%= test.status %></td>
+                    <td><%= test.title %></td>
+                </tr>
+            <% } %>
+        </table>
+    </body>
+</html>

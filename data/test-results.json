@@ -1,0 +1,480 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 3,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 16,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 20,
+  "numRuntimeErrorTestSuites": 1,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 39,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1657781884537,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 30327,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.1 - 1.3 handles the Splunk automation",
+          "location": null,
+          "status": "passed",
+          "title": "1.1 - 1.3 handles the Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.5 Authentication of User1 was logged in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "1.5 Authentication of User1 was logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 114,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.6 Access to the data was granted in Jarvis",
+          "location": null,
+          "status": "passed",
+          "title": "1.6 Access to the data was granted in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 80176,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.7 The search was logged in Jarvis",
+          "location": null,
+          "status": "passed",
+          "title": "1.7 The search was logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 14977,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.9 - 1.10 handles the Splunk automation",
+          "location": null,
+          "status": "passed",
+          "title": "1.9 - 1.10 handles the Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 510,
+          "failureMessages": [
+            "TimeoutError: Text not found \"No results found. Try expanding the time range.\"\nwaiting for function failed: timeout 500ms exceeded\n    at Object.<anonymous> (C:\\Users\\tasha\\Documents\\VS Code\\Web\\SplunkProxy\\SplunkProxy\\demo\\tests\\test.js:79:9)"
+          ],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.11 The search could not be even executed",
+          "location": null,
+          "status": "failed",
+          "title": "1.11 The search could not be even executed"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.13 Authentication of User2 was logged in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "1.13 Authentication of User2 was logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 60093,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.14 Access to the data was denied in Jarvis",
+          "location": null,
+          "status": "passed",
+          "title": "1.14 Access to the data was denied in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 30088,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.15 The search attempt was also logged in Jarvis",
+          "location": null,
+          "status": "passed",
+          "title": "1.15 The search attempt was also logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 30235,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.16.1 5 data access requests which were successful (by User1)",
+          "location": null,
+          "status": "passed",
+          "title": "1.16.1 5 data access requests which were successful (by User1)"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 30242,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.16.2 1 attempt that was not successful (by User2)",
+          "location": null,
+          "status": "passed",
+          "title": "1.16.2 1 attempt that was not successful (by User2)"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 30235,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.17 Index1 was accessed twice, and index2 was accessed 3 times",
+          "location": null,
+          "status": "passed",
+          "title": "1.17 Index1 was accessed twice, and index2 was accessed 3 times"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate users with & without access credentials to the data"
+          ],
+          "duration": 30164,
+          "failureMessages": [],
+          "fullName": "Demonstrate users with & without access credentials to the data 1.18 Sourcetype1 was accessed twice, and sourcetype2 was accessed 3 times",
+          "location": null,
+          "status": "passed",
+          "title": "1.18 Sourcetype1 was accessed twice, and sourcetype2 was accessed 3 times"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": 88110,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.2 - 2.9 handles Splunk automation",
+          "location": null,
+          "status": "passed",
+          "title": "2.2 - 2.9 handles Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.11 Authentication of GuestUser was logged in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "2.11 Authentication of GuestUser was logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": 60525,
+          "failureMessages": [
+            "TimeoutError: Text not found \"insufficient permission to access this resource\"\nwaiting for function failed: timeout 500ms exceeded\n    at Object.<anonymous> (C:\\Users\\tasha\\Documents\\VS Code\\Web\\SplunkProxy\\SplunkProxy\\demo\\tests\\test.js:178:9)"
+          ],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.12 Access to the data by GuestUser was denied in Jarvis and no search was done",
+          "location": null,
+          "status": "failed",
+          "title": "2.12 Access to the data by GuestUser was denied in Jarvis and no search was done"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": 30111,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mguest\u001b[27muser\"\u001b[39m\nReceived: \u001b[31m\"user\u001b[7m2\u001b[27m\"\u001b[39m\n    at Object.toBe (C:\\Users\\tasha\\Documents\\VS Code\\Web\\SplunkProxy\\SplunkProxy\\demo\\tests\\test.js:186:38)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+          ],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.13 The search attempt was also logged in Jarvis",
+          "location": null,
+          "status": "failed",
+          "title": "2.13 The search attempt was also logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": 6258,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.15 - 2.16 handles Splunk automation",
+          "location": null,
+          "status": "passed",
+          "title": "2.15 - 2.16 handles Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.17 The \"auto-complete\" feature when building the search and the export function in the search\n        results",
+          "location": null,
+          "status": "pending",
+          "title": "2.17 The \"auto-complete\" feature when building the search and the export function in the search\n        results"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": 79,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.18 Access to the data is now granted in Jarvis",
+          "location": null,
+          "status": "passed",
+          "title": "2.18 Access to the data is now granted in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": 30097,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.21 The search was also logged in Jarvis",
+          "location": null,
+          "status": "passed",
+          "title": "2.21 The search was also logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": 1533,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.22 handles Splunk automation",
+          "location": null,
+          "status": "passed",
+          "title": "2.22 handles Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": 30087,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.23 Access to the data by User2 was denied in Jarvis",
+          "location": null,
+          "status": "passed",
+          "title": "2.23 Access to the data by User2 was denied in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.25 - 2.29 handles Splunk automation",
+          "location": null,
+          "status": "pending",
+          "title": "2.25 - 2.29 handles Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.30 Index2UserRole has also these added index1/sourcetype1, and no longer has auto-complete/export\n        capabilities and no longer has index2/sourcetype2",
+          "location": null,
+          "status": "pending",
+          "title": "2.30 Index2UserRole has also these added index1/sourcetype1, and no longer has auto-complete/export\n        capabilities and no longer has index2/sourcetype2"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.31 The final graphical role structure from the Role Manager tab",
+          "location": null,
+          "status": "pending",
+          "title": "2.31 The final graphical role structure from the Role Manager tab"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.33-2.34 handles Splunk automation",
+          "location": null,
+          "status": "pending",
+          "title": "2.33-2.34 handles Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.35 \"Auto-complete\" feature is no longer working when building the search query and the export\n        function is no longer present in the search results",
+          "location": null,
+          "status": "pending",
+          "title": "2.35 \"Auto-complete\" feature is no longer working when building the search query and the export\n        function is no longer present in the search results"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.38 Authentication of User2 was logged in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "2.38 Authentication of User2 was logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.39 Access to the data is now granted in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "2.39 Access to the data is now granted in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.40 The search was logged in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "2.40 The search was logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.41 handles Splunk automation",
+          "location": null,
+          "status": "pending",
+          "title": "2.41 handles Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.42 The search does not bring up any results any more",
+          "location": null,
+          "status": "pending",
+          "title": "2.42 The search does not bring up any results any more"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.43 The search returned no values",
+          "location": null,
+          "status": "pending",
+          "title": "2.43 The search returned no values"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.44 Access to data was denied in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "2.44 Access to data was denied in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.46 - 2.47 handles Splunk automation",
+          "location": null,
+          "status": "pending",
+          "title": "2.46 - 2.47 handles Splunk automation"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.48 Authentication of GuestUser was logged in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "2.48 Authentication of GuestUser was logged in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.49 Access to the data by GuestUser was denied in Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "2.49 Access to the data by GuestUser was denied in Jarvis"
+        },
+        {
+          "ancestorTitles": [
+            "Demonstrate role inheritance and modifications to access credentials"
+          ],
+          "duration": null,
+          "failureMessages": [],
+          "fullName": "Demonstrate role inheritance and modifications to access credentials 2.50 The search by GuestUser was also logged ni Jarvis",
+          "location": null,
+          "status": "pending",
+          "title": "2.50 The search by GuestUser was also logged ni Jarvis"
+        }
+      ],
+      "coverage": {},
+      "endTime": 1657782792311,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mDemonstrate users with & without access credentials to the data › 1.11 The search could not be even executed\u001b[39m\u001b[22m\n\n    TimeoutError: Text not found \"No results found. Try expanding the time range.\"\n    waiting for function failed: timeout 500ms exceeded\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 77 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 78 |\u001b[39m     test(\u001b[32m\"1.11 The search could not be even executed\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 79 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoMatch(\u001b[32m\"No results found. Try expanding the time range.\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 80 |\u001b[39m     }\u001b[33m,\u001b[39m timeout)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 81 |\u001b[39m     test\u001b[33m.\u001b[39mskip(\u001b[32m\"1.13 Authentication of User2 was logged in Jarvis\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 82 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mPromise\u001b[39m((res) \u001b[33m=>\u001b[39m setTimeout(res\u001b[33m,\u001b[39m \u001b[35m30000\u001b[39m))\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/test.js\u001b[39m\u001b[0m\u001b[2m:79:9)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mDemonstrate role inheritance and modifications to access credentials › 2.12 Access to the data by GuestUser was denied in Jarvis and no search was done\u001b[39m\u001b[22m\n\n    TimeoutError: Text not found \"insufficient permission to access this resource\"\n    waiting for function failed: timeout 500ms exceeded\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 176 |\u001b[39m     test(\u001b[32m\"2.12 Access to the data by GuestUser was denied in Jarvis and no search was done\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 177 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mPromise\u001b[39m((res) \u001b[33m=>\u001b[39m setTimeout(res\u001b[33m,\u001b[39m \u001b[35m60000\u001b[39m))\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 178 |\u001b[39m         \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoMatch(\u001b[32m\"insufficient permission to access this resource\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 179 |\u001b[39m         \u001b[36mconst\u001b[39m latest \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mLog\u001b[39m\u001b[33m.\u001b[39mfindOne({}\u001b[33m,\u001b[39m {}\u001b[33m,\u001b[39m { sort\u001b[33m:\u001b[39m { \u001b[32m\"info.timestamp\"\u001b[39m\u001b[33m:\u001b[39m \u001b[33m-\u001b[39m\u001b[35m1\u001b[39m } }) \u001b[33m||\u001b[39m {}\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 180 |\u001b[39m         expect(latest\u001b[33m.\u001b[39mstate)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"BLOCKED\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 181 |\u001b[39m     }\u001b[33m,\u001b[39m timeout)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/test.js\u001b[39m\u001b[0m\u001b[2m:178:9)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mDemonstrate role inheritance and modifications to access credentials › 2.13 The search attempt was also logged in Jarvis\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"\u001b[7mguest\u001b[27muser\"\u001b[39m\n    Received: \u001b[31m\"user\u001b[7m2\u001b[27m\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 184 |\u001b[39m         \u001b[36mconst\u001b[39m latest \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mLog\u001b[39m\u001b[33m.\u001b[39mfindOne({}\u001b[33m,\u001b[39m {}\u001b[33m,\u001b[39m { sort\u001b[33m:\u001b[39m { \u001b[32m\"info.timestamp\"\u001b[39m\u001b[33m:\u001b[39m \u001b[33m-\u001b[39m\u001b[35m1\u001b[39m } }) \u001b[33m||\u001b[39m {}\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 185 |\u001b[39m         expect(latest\u001b[33m.\u001b[39minfo\u001b[33m.\u001b[39mquery)\u001b[33m.\u001b[39mtoMatch(\u001b[35m/search(?=(.*index=\"index2\"))(?=(.*sourcetype=\"sourcetype2\"))/\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 186 |\u001b[39m         expect(latest\u001b[33m.\u001b[39minfo\u001b[33m.\u001b[39musername)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"guestuser\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 187 |\u001b[39m     }\u001b[33m,\u001b[39m timeout)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 188 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 189 |\u001b[39m     it(\u001b[32m\"2.15 - 2.16 handles Splunk automation\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/test.js\u001b[39m\u001b[0m\u001b[2m:186:38)\u001b[22m\u001b[2m\u001b[22m\n\n\n  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Execution context was destroyed, most likely because of a navigation.\n\n    \u001b[0m \u001b[90m 46 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 47 |\u001b[39m     roles \u001b[33m?\u001b[39m (\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 48 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mselect(\u001b[32m\"select#roles\"\u001b[39m\u001b[33m,\u001b[39m \u001b[33m...\u001b[39mroles)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 49 |\u001b[39m     })() \u001b[33m:\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 50 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m2000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 51 |\u001b[39m\u001b[0m\n\n      \u001b[2mat rewriteError (\u001b[22mnode_modules/puppeteer/src/common/ExecutionContext.ts\u001b[2m:369:15)\u001b[22m\n      \u001b[2mat ExecutionContext._ExecutionContext_evaluate (\u001b[22mnode_modules/puppeteer/src/common/ExecutionContext.ts\u001b[2m:304:7)\u001b[22m\n      \u001b[2mat ElementHandle.evaluateHandle (\u001b[22mnode_modules/puppeteer/src/common/JSHandle.ts\u001b[2m:182:12)\u001b[22m\n      \u001b[2mat Object.internalHandler.queryOne (\u001b[22mnode_modules/puppeteer/src/common/QueryHandler.ts\u001b[2m:70:24)\u001b[22m\n      \u001b[2mat ElementHandle.$ (\u001b[22mnode_modules/puppeteer/src/common/ElementHandle.ts\u001b[2m:850:13)\u001b[22m\n      \u001b[2mat DOMWorld.$ (\u001b[22mnode_modules/puppeteer/src/common/DOMWorld.ts\u001b[2m:192:19)\u001b[22m\n      \u001b[2mat DOMWorld.select (\u001b[22mnode_modules/puppeteer/src/common/DOMWorld.ts\u001b[2m:518:20)\u001b[22m\n      \u001b[2mat \u001b[22mscripts/utils/puppeteerJarvis.js\u001b[2m:48:9\u001b[22m\n\n  \u001b[1m● \u001b[22mTest suite failed to run\n\n    No element found for selector: tr[data-view=\"views/sourcetypes/GridRow\"] .delete-action\n\n    \u001b[0m \u001b[90m 141 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mkeyboard\u001b[33m.\u001b[39mpress(\u001b[32m\"Enter\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 142 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 143 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[0m\n    \u001b[0m \u001b[90m     |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 144 |\u001b[39m             \u001b[32m`tr[data-view=\"views/sourcetypes/GridRow\"] .delete-action`\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 145 |\u001b[39m         )\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 146 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n      \u001b[2mat assert (\u001b[22mnode_modules/puppeteer/src/common/assert.ts\u001b[2m:29:11)\u001b[22m\n      \u001b[2mat DOMWorld.click (\u001b[22mnode_modules/puppeteer/src/common/DOMWorld.ts\u001b[2m:498:11)\u001b[22m\n          at runMicrotasks (<anonymous>)\n      \u001b[2mat Object.deleteSourceTypes (\u001b[22mscripts/utils/puppeteerSplunk.js\u001b[2m:143:9)\u001b[22m\n      \u001b[2mat clean (\u001b[22mscripts/setup.js\u001b[2m:120:5)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mtests/test.js\u001b[39m\u001b[0m\u001b[2m:21:5)\u001b[22m\n",
+      "name": "C:\\Users\\tasha\\Documents\\VS Code\\Web\\SplunkProxy\\SplunkProxy\\demo\\tests\\test.js",
+      "startTime": 1657782792311,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}
