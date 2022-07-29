@@ -58,46 +58,26 @@
       td.link {
         text-align: center;
       }
+      td.message {
+        background-color: black;
+        color: white;
+      }
     </style>
   </head>
   <body>
-    <p>All Tests</p>
-    <table class="total">
-      <thead>
-        <td>Failed Tests</td>
-        <td>Passed Tests</td>
-        <td>Skipped Tests</td>
-        <td>Total</td>
-        <td>Time</td>
-      </thead>
-      <tr>
-        <td class="failed"><%= results.numFailedTests %></td>
-        <td class="passed"><%= results.numPassedTests %></td>
-        <td class="pending"><%= results.numPendingTests %></td>
-        <td><%= results.numTotalTests %></td>
-        <td>
-          <%= ((results.testResults[0].endTime - results.startTime) / 1000 / 60).toFixed(0) %>m
-          <%= ((results.testResults[0].endTime - results.startTime) / 1000 % 60).toFixed(2) %>s
-        </td>
-      </tr>
-    </table>
-    <% for (let suite of results.testResults) { %>
-    <p class="<%= suite.status %>">
-      <a href="/<%= results.testResults.indexOf(suite) %>"
-        >Test suite #<%= results.testResults.indexOf(suite) %></a
-      > - <%= suite.status %>
-    </p>
+    <p><a href="/">All Tests</a> / Test Suite #<%= id %></p>
+    <p class="<%= results.status %>">Status - <%= results.status %></p>
     <table>
       <thead>
         <td>Info</td>
         <td>Status</td>
         <td>Name</td>
       </thead>
-      <% for (let test of suite.assertionResults) {%>
+      <% for (let test of results.assertionResults) {%>
       <tr class="<%= test.status %>">
         <td class="link">
           <button
-            onclick="location = '/<%= results.testResults.indexOf(suite) %>/<%= suite.assertionResults.indexOf(test) %>'"
+            onclick="location = '/<%= id %>/<%= results.assertionResults.indexOf(test) %>'"
           >
             Details
           </button>
@@ -106,6 +86,17 @@
         <td><%= test.title %></td>
       </tr>
       <% } %>
+    </table>
+    <% if (results.message) { %>
+    <table class="total">
+      <tr>
+        <td class="message">
+          <pre>
+        <%- results.message %>
+    </pre
+          >
+        </td>
+      </tr>
     </table>
     <% } %>
   </body>

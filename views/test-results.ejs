@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test <%= test.title %></title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid gray;
+      }
+      thead {
+        text-align: center;
+        background-color: gray;
+        color: white;
+      }
+      td {
+        border: 1px solid gray;
+      }
+      tr.passed {
+        background-color: rgb(186, 213, 186);
+      }
+      tr.failed {
+        background-color: rgb(254, 175, 175);
+      }
+      tr.pending {
+        background-color: rgb(243, 243, 243);
+      }
+      table.total td.passed {
+        background-color: rgb(186, 213, 186);
+      }
+      table.total td.failed {
+        background-color: rgb(254, 175, 175);
+      }
+      table.total td.pending {
+        background-color: rgb(243, 243, 243);
+      }
+      td.passed {
+        color: green;
+      }
+      td.failed {
+        color: red;
+      }
+      td.pending {
+        color: gray;
+      }
+      td.failureMessages {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <a href="/">All Tests</a> /
+      <a href="/<%= suiteId %>">Suite #<%= suiteId %></a> / <%= test.fullName %>
+    </p>
+    <table>
+      <thead>
+        <td>Parameter</td>
+        <td>Value</td>
+      </thead>
+      <tr>
+        <td>Test ancestor</td>
+        <td><%= test.ancestorTitles.join(" | ") %></td>
+      </tr>
+      <tr>
+        <td>Title</td>
+        <td><%= test.title %></td>
+      </tr>
+      <tr class="<%= test.status %>">
+        <td>Status</td>
+        <td class="<%= test.status %>"><%= test.status %></td>
+      </tr>
+      <tr>
+        <td>Time</td>
+        <td><%= test.duration / 1000 %>s</td>
+      </tr>
+      <% if (test.failureMessages.length !== 0) { %>
+      <tr>
+        <td>Messages</td>
+        <td class="failureMessages">
+          <pre><%- test.failureMessages.join("\n\n\n") %></pre>
+        </td>
+      </tr>
+      <% } %>
+    </table>
+  </body>
+</html>
